@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Olá! Meu nome é John e sou estudante e desenvolvedor front end! Estou a procura da minha primeira vaga como Junior, ou estágio!">
+</head>
+<meta name="keywords" content="portfólio, front end, estágio,d esenvolvedor junior">
+<meta name="author" content="John Ferreira">
+
+
+<title>Portfólio - Yuri Silva dos Santos</title>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="imagem/png" href="/img/redicon.png" />
+<link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <img src="./img/logotipo.png" alt="logotipo" class="logo" >
+        <nav class="menu nav-bar">
+            <a href="home" class="menu--item">HOME</a>
+            <a href="#tecnologies" class="menu--item">LINGUAGENS</a>
+            <a href="#projects" class="menu--item">SOBRE MIM</a>
+            <a href="#contact" class="menu--item">CONTATO</a>
+            <label class="switch">
+                <input type="checkbox" name="change-theme" id="change-theme">
+                <span class="slider"></span>
+            </label>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="./img/menu.png" alt="" class="icon"></button>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="mobile-menu">
+        <a href="home" class="menu--item">HOME</a>
+        <a href="#tecnologies" class="menu--item">LINGUAGENS</a>
+        <a href="#projects" class="menu--item">SOBRE MIM</a>
+        <a href="#contact" class="menu--item">CONTATO</a>
+    </div>
+
+
+    <section class="section--top" id="home">
+        <img src="./img/minhafoto.png" alt="" data-aos="fade-right">
+        <div class="container--description" data-aos="fade-left">
+            <h4 class="subtitle--top">Olá, Meu Nome é Yuri Silva</h4>
+            <h1 class="title--top">Desenvolvedor Full-Stack</h1>
+            <p class="description--top" >
+                O desenvolvedor Fullstack é um verdadeiro artesão da era digital. Com habilidades tanto no front-end quanto no back-end, ele possui o poder de criar experiências completas e funcionais na web. Com a destreza de um malabarista, ele equilibra tecnologias como HTML, CSS e JavaScript, ao mesmo tempo em que domina frameworks como React, Angular e Vue,Node js, MongoDb entre outas Tecnologias. 
+            </p>
+            <button class="about-me">
+                <span>SOBRE MIM</span><i></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="sec--section" id="tecnologies" >
+        <div class="main--div">
+            <div class="main--tech">
+                
+                
+                
+                <div class="sub--tech2 subclass" data-aos="zoom-in-up">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                    <h1>BOOTSTRAP</h1>
+                    <p>olhe aqui um blog Metaverso que eu realizei pelo Bootstrap.</p>
+                    <a href="https://blogmetaverso.netlify.app">Ver projeto</a>
+                </div>
+                
+                <div class="sub--tech2 subclass" data-aos="zoom-in-up">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                    <h1>HTML 5</h1>
+                    <p>Olhe aqui uma Landing page Gym.</p>
+                    <a href="https://gympageee.netlify.app">Ver projeto</a>
+                </div>
+                <div class="sub--tech1 subclass" data-aos="zoom-in-up">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    <h1>REACT </h1>
+                    <p>Veja aqui, um projeto criado por mim, totalmente em REACT!</p>
+                    <a href="">Ver projeto</a>
+                </div>
+            </div>
+            <div class="title--formation">
+                <H1>Minha Formação e Cursos:</H1>
+            </div>
+            <div class="formation" data-aos="zoom-out">
+                <div class="formation--item">
+                    <div class="logo--form">
+                        <img src="./img/descomplica.png" alt="">
+                    </div>
+                    <div>
+                        <h1>Análise e desenvolvimento de sistemas:</h1>
+                        <h2>Faculdade Descomplica Digital 2° Semestre</h2>
+                        <details>
+                            <summary>Grade Curricular</summary>
+                            <p>Estrutura de Dados
+                                Programação Orientada a Objetos
+                                Banco de Dados
+                                Sistemas Operacionais
+                                Análise e Projeto de Sistemas
+                                Ética e Legislação em Informática </p>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="formation--item">
+                    <div class="logo--form">
+                        <img src="./img/vai na web.jfif" alt="">
+                    </div>
+                    <div>
+                        <h1>Vai Na Web</h1>
+                        <h2>Desenvolvedor Front-end:</h2>
+                        <details>
+                            <summary>Grade Curricular</summary>
+                            <p>HTML, CSS, JavaScript, REACT, Bootstrap, GIT e github.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+            <div class="formation">
+                <div class="formation--item">
+                    <div class="logo--form">
+                        <img src="./img/udemy logo.png" alt="">
+                    </div>
+                    <div>
+                        <h1>Cursos Da Udemy:</h1>
+                        <h2>UDEMY:</h2>
+                        <details>
+                            <summary>Grade Curricular</summary>
+                            <p>Aprenda JAVASCRIPT em 7 dias + Projetos Reais 2023,Introdução ao Node JS + ExpressCurso Desenvolvedor Web Completo + 10 de projetos,Figma Design de interfaces do zero ao profissional 2023,Curso Completo do Desenvolvedor Web.</p>
+                        </details>
+                    </div>
+                </div>
+                <div class="formation--item">
+                    <div class="logo--form">
+                        <img src="./img/curso em video.jpg" alt="">
+                    </div>
+                    <div>
+                        <h1>Curso em Vídeo e Vídeos no Youtube</h1>
+                        <h2>Vídeos do Gustavo Guanabara:</h2>
+                        <details>
+                            <summary>Grade Curricular</summary>
+                            <p> Realizei a conclusão de cursos como: Lógica da programação, Javascript, HTML, CSS e Atualmente e Linux e pelo Youtube aprendo bastante. </p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects--title">
+            <div class="projects--subtitle">
+                <h1>Meus projetos:</h1>
+                <h2>veja alguns projetos que eu fiz:</h2>
+            </div>
+            <div class="button--git">
+                <a href="https://github.com/yuridubi12">
+                    <button class="about-me">
+                        <span>PERFIL GITHUB</span><i></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="examples">
+            <div class="intern--exemple">
+                <h1>Landing Page Mkt</h1>
+                <video width="320" height="240" controls>
+                    <source src="./videos/landing travel.mp4" type="video/mp4">
+                </video>
+                
+            </div>
+            <div class="intern--exemple">
+                <h1>Relógio Analógico</h1>
+                <video width="320" height="240" controls>
+                    <source src="./videos/relogio analo.mp4" type="video/mp4">
+                </video>
+               
+            </div>
+        </div>
+
+        <div class="examples">
+            <div class="intern--exemple">
+                <h1>Website Gamer</h1>
+                <video width="320" height="240" controls>
+                    <source src="./videos/website gamer (1).mp4" type="video/mp4">
+                </video>
+              
+            </div>
+            <div class="intern--exemple">
+                <h1>Website Travel</h1>
+                <video width="320" height="240" controls>
+                    <source src="./videos/site travel.mp4" type="video/mp4">
+                </video>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bg">
+        <div></div>
+    </section>
+
+    <section class="work--together" id="contact">
+        <div class="work--contact">
+            <h1>Então, vamos trabalhar juntos?</h1>
+            <p>Entre em contato, tenho certeza que posso agregar muito para sua empresa/negócio!</p>
+        </div>
+        <div class="button--contact">
+            <a href="https://web.whatsapp.com/send?phone=5521982214135?text=Olá Yuri! Vim através do seu portfólio! Vamos conversar?"
+                target="blank"> CONTATO
+            </a>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="icon--footer">
+            <img src="/img/redicon.png" alt="">
+        </div>
+        <div class="icon--social">
+            <a href="https://web.whatsapp.com/send?phone=5511982663159?text=Olá John! Vim através do seu portfólio! Vamos conversar?" target="blank"><img src="/img/whatsapp.png" alt=""></a>
+            <a href="https://github.com/DevWebBrasil" target="blank"><img src="/img/github1.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/jonata-ferreira-04b6b323a/" target="blank"><img src="/img/linkedin.png" alt=""></a>
+        </div>
+        <div class="created">
+            criado por: Yuri Silva
+        </div>
+
+    </footer>
+
+    <div data-scroll="soft" data-anima="scroll">
+        <a href="#header">
+            <div class="top">
+            
+            </div>
+
+        </a>
+
+    </div>
+
+    <script src="./js/scroll.js"></script>
+    <script src="./js/darkmode.js"></script>
+    <script src="./js/mobilemenu.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+
+</html>
